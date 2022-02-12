@@ -7,6 +7,15 @@ public class AccountPojo {
     private String accountHash;
     private int numberOfAcct;
 
+    public AccountPojo(String accountNumber, String accountName, String accountHash, int numberOfAcct) {
+        this.accountNumber = accountNumber;
+        this.accountName = accountName;
+        this.accountHash = accountHash;
+        this.numberOfAcct = numberOfAcct;
+    }
+
+    public AccountPojo() {
+    }
 
     public String getAccountName() {
         return accountName;

@@ -148,6 +148,7 @@ public class BeanController {
 	}
 
 
+
 	@GetMapping(
 			value = "bean/gettranscate",
 			consumes = {MediaType.APPLICATION_JSON_VALUE},
